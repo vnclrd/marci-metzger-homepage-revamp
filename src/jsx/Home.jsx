@@ -2,21 +2,21 @@ function Home() {
   return (
     <div className='w-full h-screen flex flex-col'>
 
-        <div className='absolute w-[800px] h-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-[#303030] z-[1000] flex'>
-          <div className='w-[400px] h-[300px] bg-amber-50 flex flex-col items-center pt-10 shadow'>
+        <div className='absolute w-[900px] h-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-[#303030] z-[1000] flex'>
+          <div className='w-[450px] h-[300px] bg-amber-50 flex flex-col items-center pt-10 shadow'>
             <h1 className='text-[#1e1e1e] text-[1.5rem] font-poppins leading-7 tracking-wide font-bold'>TOP RESIDENTIAL SALES</h1>
             <p>in the last 5 years</p>
-            <p className='pl-7 pr-7 pt-4 text-[0.8rem] text-justify leading-5'>
+            <p className='pl-7 pr-7 pt-5 text-[0.8rem] text-justify leading-5'>
               We helped nearly 90 clients in 2021, and closed 28.5 million in sales!
               Our team works hard everyday to grow and learn, so that we may continue
               to excel in our market. Our clients deserve our best, & we want to make
               sure our best is better every year.
             </p>
-            <button className='mt-6 pl-2 pr-2 pt-2 pb-2 text-[0.8rem] cursor-pointer border'>
+            <button className='mt-7 pl-2 pr-2 pt-2 pb-2 text-[0.8rem] cursor-pointer border'>
               Check our Services
             </button>
           </div>
-          <div className='w-[400px] h-[300px] bg-[url("/block-img.jpg")] bg-cover bg-center bg-no-repeat'></div>
+          <div className='w-[450px] h-[300px] bg-[url("/block-img.jpg")] bg-cover bg-center bg-no-repeat'></div>
         </div>
       
       <div className='flex items-center justify-center w-full h-[70%] relative'>
