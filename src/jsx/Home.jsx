@@ -20,16 +20,24 @@ function Home() {
         </div>
         
         <div className='flex items-center justify-center w-full h-[70%] relative'>
-          <div 
-            className='
-              absolute inset-0
-              bg-[url("/bg-img.jpg")] bg-cover bg-center bg-no-repeat
-              contrast-90 brightness-60
-            '
-            style={{
-              backgroundPosition: '0% 30%'
-            }}
-          ></div>
+          <div className="absolute inset-0">
+            <div 
+              className='
+                absolute inset-0
+                bg-[url("/bg-img.jpg")] bg-cover bg-center bg-no-repeat
+                contrast-90 brightness-60
+              '
+              style={{
+                backgroundPosition: '0% 30%'
+              }}
+            />
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage: 'linear-gradient(to bottom, transparent 0%, transparent 80%, #947741 110%)'
+              }}
+            />
+          </div>
           
           <div className='text-center mb-[7.5%] drop-shadow-lg relative z-10'>
             <p className="text-white text-[5rem] font-bold mb-[-25px]">MARCI METZGER</p>
