@@ -4,7 +4,7 @@ function Gallery() {
 
   return (
     <>
-      <div className='w-[100%] min-h-screen bg-[#1e1e1e]'>
+      <div id='gallery' className='w-[100%] min-h-screen bg-[#1e1e1e]'>
 
       </div>
     </>

@@ -11,6 +11,26 @@ function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  function scrollToHome() {
+    document.getElementById('home').scrollIntoView({ behavior: 'smooth' })
+  }
+
+  function scrollToAbout() {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' })
+  }
+
+  function scrollToGallery() {
+    document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' })
+  }
+
+  function scrollToServices() {
+    document.getElementById('services').scrollIntoView({ behavior: 'smooth' })
+  }
+
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <div
       className={`
@@ -24,7 +44,7 @@ function Header() {
     >
       <div className="flex h-full text-center justify-center items-center pt-3">
         <a
-          href="#home"
+          href="#home" onClick={(e) => { e.preventDefault(); scrollToHome() }}
           className={`
             text-[1.5rem] font-bold drop-shadow-lg
             transition-all duration-500 ease-in-out
@@ -43,10 +63,10 @@ function Header() {
             text-white
           `}
         >
-          <a href="#about" className="p-4">About</a>
-          <a href="#gallery" className="p-4">Gallery</a>
-          <a href="#services" className="p-4">Services</a>
-          <a href="#contact" className="p-4">Contact</a>
+          <a href="#about" onClick={(e) => { e.preventDefault(); scrollToAbout() }} className="p-4">About</a>
+          <a href="#gallery" onClick={(e) => { e.preventDefault(); scrollToGallery() }} className="p-4">Gallery</a>
+          <a href="#services" onClick={(e) => { e.preventDefault(); scrollToServices() }} className="p-4">Services</a>
+          <a href="#contact" onClick={(e) => { e.preventDefault(); scrollToContact() }} className="p-4">Contact</a>
         </div>
       </div>
     </div>

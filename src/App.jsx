@@ -8,7 +8,9 @@ function App() {
   return (
     <>
       <Header />
+
       <Home />
+      
       <Gallery />
     </>
   )
