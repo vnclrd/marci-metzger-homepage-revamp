@@ -34,7 +34,7 @@ function Home() {
             <div
               className="absolute inset-0"
               style={{
-                backgroundImage: 'linear-gradient(to bottom, transparent 0%, transparent 80%, #947741 110%)'
+                backgroundImage: 'linear-gradient(to bottom, transparent 0%, transparent 80%, #000 110%)'
               }}
             />
           </div>
