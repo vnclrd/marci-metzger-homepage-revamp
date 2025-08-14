@@ -4,10 +4,15 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.font-impact {
-  font-family: Impact, 'Arial Black', sans-serif;
-}
-
 .font-poppins {
   font-family: 'Poppins', sans-serif;
 }
+
+.font-brush {
+  font-family: 'Brush Script MT', cursive;
+}
+
+.font-lucida {
+  font-family: 'Lucida Handwriting', cursive;
+}
+
