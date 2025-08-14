@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
 body {
   font-family: 'Inter', sans-serif;
 }
