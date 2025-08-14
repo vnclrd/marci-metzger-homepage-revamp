@@ -2,7 +2,7 @@ function Home() {
   return (
     <div className='w-full h-screen flex flex-col'>
 
-        <div className='absolute w-[900px] h-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-[#303030] z-[1000] flex'>
+        <div className='absolute w-[900px] h-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-[#303030] z-950 flex'>
           <div className='w-[450px] h-[300px] bg-amber-50 flex flex-col items-center pt-10 shadow'>
             <h1 className='text-[#1e1e1e] text-[1.5rem] font-poppins leading-7 tracking-wide font-bold'>TOP RESIDENTIAL SALES</h1>
             <p>in the last 5 years</p>
@@ -37,7 +37,7 @@ function Home() {
         </div>
       </div>
 
-      <button className='absolute shadow border text-[0.9rem] pl-3 pr-3 pt-2 pb-2 cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-20 text-[#fff] z-1000'>Contact Me</button>
+      <button className='absolute shadow border text-[0.9rem] pl-3 pr-3 pt-2 pb-2 cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-20 text-[#fff]'>Contact Me</button>
       
       <div className='w-full h-[30%] bg-[#1e1e1e]'>
       </div>
