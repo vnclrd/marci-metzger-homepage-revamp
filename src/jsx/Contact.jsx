@@ -1,7 +1,10 @@
 function Contact() {
   return (
     <>
-      <div id="contact" className="w-full h-screen flex items-center justify-center px-6">
+      <div
+        id="contact"
+        className="w-full min-h-screen flex items-center justify-center px-6 py-10"
+      >
         <div className="flex flex-col md:flex-row gap-10 backdrop-blur-lg bg-[#1e1e1e] p-8 rounded-lg shadow-lg mt-[5%] max-w-[900px] w-full">
           
           {/* Left side - Contact Form */}
@@ -11,21 +14,21 @@ function Contact() {
               <input
                 type="text"
                 placeholder="Name"
-                className="p-3 rounded-md bg-white/20 text-white placeholder-white outline-none"
+                className="p-3 rounded-md bg-white/20 text-white placeholder-white outline-none w-full"
               />
               <input
                 type="email"
                 placeholder="Email"
-                className="p-3 rounded-md bg-white/20 text-white placeholder-white outline-none"
+                className="p-3 rounded-md bg-white/20 text-white placeholder-white outline-none w-full"
               />
               <textarea
                 placeholder="Message"
                 rows="4"
-                className="p-3 rounded-md bg-white/20 text-white placeholder-white outline-none"
+                className="p-3 rounded-md bg-white/20 text-white placeholder-white outline-none w-full"
               ></textarea>
               <button
                 type="submit"
-                className="bg-white text-[#1e1e1e] py-2 px-4 rounded-md font-semibold hover:bg-gray-200 transition"
+                className="bg-white text-[#1e1e1e] py-2 px-4 rounded-md font-semibold hover:bg-gray-200 transition w-full"
               >
                 Send
               </button>
@@ -34,7 +37,9 @@ function Contact() {
 
           {/* Right side - Contact Information */}
           <div className="flex-1 text-white font-poppins">
-            <h2 className="text-[1.2rem] font-bold mb-3">Marci Metzger - THE RIDGE REALTY GROUP</h2>
+            <h2 className="text-[1.2rem] font-bold mb-3">
+              Marci Metzger - THE RIDGE REALTY GROUP
+            </h2>
             <p className="mb-4">
               3190 HW-160, Suite F, Pahrump, Nevada 89048, United States
             </p>
@@ -50,7 +55,9 @@ function Contact() {
             </div>
 
             <div className="mb-4">
-              <p><span className="font-semibold">Open daily:</span> 8:00 am - 7:00 pm</p>
+              <p>
+                <span className="font-semibold">Open daily:</span> 8:00 am - 7:00 pm
+              </p>
               <p className="mt-2 italic text-sm">
                 Appointments outside office hours available upon request. Just call!
               </p>
@@ -62,4 +69,4 @@ function Contact() {
   );
 }
 
-export default Contact
+export default Contact;
