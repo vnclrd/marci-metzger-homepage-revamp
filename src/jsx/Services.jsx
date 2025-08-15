@@ -1,12 +1,12 @@
 function Services() {
   return (
     <>
-      <div id="services" className="w-full h-screen flex items-center justify-center">
-        <div className="w-[1100px] bg-[#1e1e1e] flex flex-col items-center justify-center mt-[5%] p-8 rounded-lg">
+      <div id="services" className="w-full min-h-screen flex items-center justify-center px-4">
+        <div className="w-full max-w-[1100px] bg-[#1e1e1e] flex flex-col items-center justify-center mt-[5%] p-8 rounded-lg">
           {/* Images and Paragraphs */}
           <div className="flex justify-center gap-10 flex-wrap">
             {/* Service 1 */}
-            <div className="flex flex-col items-center w-[300px]">
+            <div className="flex flex-col items-center w-full sm:w-[300px]">
               <div
                 className="w-full h-[200px] rounded-lg bg-[url('/service-1.webp')] bg-cover bg-center mb-[20px]"
               ></div>
@@ -23,7 +23,7 @@ function Services() {
             </div>
 
             {/* Service 2 */}
-            <div className="flex flex-col items-center w-[300px]">
+            <div className="flex flex-col items-center w-full sm:w-[300px]">
               <div
                 className="w-full h-[200px] rounded-lg bg-[url('/service-2.webp')] bg-cover bg-center mb-[20px]"
               ></div>
@@ -40,7 +40,7 @@ function Services() {
             </div>
 
             {/* Service 3 */}
-            <div className="flex flex-col items-center w-[300px]">
+            <div className="flex flex-col items-center w-full sm:w-[300px]">
               <div
                 className="w-full h-[200px] rounded-lg bg-[url('/service-3.webp')] bg-cover bg-center mb-[20px]"
               ></div>
