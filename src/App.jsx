@@ -6,8 +6,14 @@ import Gallery from './jsx/Gallery.jsx'
 import Services from './jsx/Services.jsx'
 import Contact from './jsx/Contact.jsx'
 import Footer from './jsx/Footer.jsx'
+import { useEffect } from "react"
 
 function App() {
+  
+  useEffect(() => {
+    // Scroll to top on page reload
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
