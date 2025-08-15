@@ -1,8 +1,16 @@
+import { motion } from "framer-motion";
+
 function Services() {
   return (
     <>
       <div id="services" className="w-full min-h-screen flex items-center justify-center px-4">
-        <div className="w-full max-w-[1100px] bg-[#1e1e1e] flex flex-col items-center justify-center mt-[5%] p-8 rounded-lg">
+        <motion.div
+          className="w-full max-w-[1100px] bg-[#1e1e1e] flex flex-col items-center justify-center mt-[5%] p-8 rounded-lg"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+        >
           {/* Images and Paragraphs */}
           <div className="flex justify-center gap-10 flex-wrap">
             {/* Service 1 */}
@@ -56,10 +64,10 @@ function Services() {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   )
 }
 
-export default Services
+export default Services;
