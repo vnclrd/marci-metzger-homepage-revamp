@@ -36,7 +36,7 @@ function Home() {
                 className="
                   absolute inset-0
                   bg-[url('/bg-img.jpg')] bg-cover bg-center bg-no-repeat
-                  contrast-90 brightness-70
+                  contrast-90 brightness-60
                 "
                 style={{
                   backgroundAttachment: 'fixed',
