@@ -47,6 +47,7 @@ function About() {
             <p className="text-white text-base md:text-lg font-poppins font-light mt-4">
               Marci Metzger
             </p>
+            <p className="text-white text-sm font-thin">Real Estate Agent</p>
             <p className="text-white text-sm font-thin">Realtor</p>
           </motion.div>
 
