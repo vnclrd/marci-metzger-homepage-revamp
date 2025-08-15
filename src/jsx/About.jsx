@@ -6,7 +6,7 @@ function About() {
         <div className="absolute top-0 left-0 w-full h-[70%] bg-[#1e1e1e]" />
         <div className="absolute bottom-0 left-0 w-full h-[30%] bg-transparent" />
 
-        <div className='absolute w-[1000px] h-[400px] bg-[#303030] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+        <div className='absolute w-[1000px] h-[400px] rounded-lg bg-[#303030] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
           {/* Content container inside the top part */}
           <div className="absolute top-0 left-0 w-full h-[70%] flex items-center justify-center z-10">
             <div className="flex flex-row items-start gap-10 max-w-[900px] px-4">
@@ -27,8 +27,8 @@ function About() {
               </div>
 
               {/* Paragraphs */}
-              <div className="flex flex-col ml-10 mt-[20%] max-w-[500px]">
-                <p className="text-white text-[0.75rem] italic font-thin leading-5 mb-4">
+              <div className="flex flex-col ml-10 mt-[18%] max-w-[500px]">
+                <p className="text-white text-[0.9rem] italic font-thin leading-5 mb-10">
                   "I love that small-town feeling that our community offers. Spectacular golf
                   courses, parks, pool, and easy access to Las Vegas make Pahrump a great
                   place to call home. Working or retired, fast-paced or looking to relax...
