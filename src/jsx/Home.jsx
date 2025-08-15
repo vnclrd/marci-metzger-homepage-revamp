@@ -2,7 +2,7 @@ function Home() {
   return (
     <>
       <div id='home' className='w-full h-screen flex flex-col'>
-        <div className='absolute w-[900px] h-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-[#303030] z-950 flex'>
+        <div className='absolute w-[800px] h-[300px] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-2 bg-[#303030] z-950 flex'>
           <div className='w-[450px] h-[300px] bg-amber-50 flex flex-col items-center pt-10 shadow'>
             <h1 className='text-[#1e1e1e] text-[1.5rem] font-poppins leading-7 tracking-wide font-bold'>TOP RESIDENTIAL SALES</h1>
             <p>in the last 5 years</p>
@@ -39,9 +39,9 @@ function Home() {
             />
           </div>
           
-          <div className='text-center mb-[7.5%] drop-shadow-lg relative z-10'>
-            <p className="text-white text-[5rem] font-bold mb-[-25px]">MARCI METZGER</p>
-            <p className='text-white text-[2rem] font-brush'>Homes</p>
+          <div className='text-center mb-[7%] relative z-10'>
+            <p className="text-white text-[5rem] font-bold mb-[-25px] drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]">MARCI METZGER</p>
+            <p className='text-[#ffe8a8] text-[5rem] font-extralight mt-[-12%] z-1000 font-brush drop-shadow-[0_2px_2px_rgba(0,0,0,0.75)]'>Homes</p>
           </div>
         </div>
 
