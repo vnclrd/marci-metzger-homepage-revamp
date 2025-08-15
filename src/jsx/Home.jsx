@@ -26,7 +26,7 @@ function Home() {
             </p>
             <button 
               onClick={(e) => { e.preventDefault(); scrollToServices() }} 
-              className='rounded-lg mt-7 pl-3 pr-3 pt-2 pb-2 text-[0.8rem] cursor-pointer border'>
+              className='rounded-lg mt-5 pl-3 pr-3 pt-2 pb-2 text-[0.8rem] cursor-pointer border'>
               Our Services
             </button>
           </div>
@@ -59,10 +59,11 @@ function Home() {
         <button
           onClick={(e) => { e.preventDefault(); scrollToContact() }}
           className='
-            absolute shadow border text-[0.9rem] pl-3
+            absolute border text-[0.9rem] pl-3
             pr-3 pt-2 pb-2 cursor-pointer top-1/2
             left-1/2 transform -translate-x-1/2
             -translate-y-20 text-[#fff] rounded-lg
+            drop-shadow-[0_2px_2px_rgba(0,0,0,1)]
             '
           >
             Contact Us
