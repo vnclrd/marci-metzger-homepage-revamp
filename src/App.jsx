@@ -12,17 +12,11 @@ function App() {
   return (
     <>
       <Header />
-
       <Home />
-
       <About />
-      
       <Gallery />
-
       <Services />
-
       <Contact />
-
       <Footer />
     </>
   )
