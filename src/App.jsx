@@ -4,6 +4,7 @@ import Home from './jsx/Home.jsx'
 import About from './jsx/About.jsx'
 import Gallery from './jsx/Gallery.jsx'
 import Services from './jsx/Services.jsx'
+import Contact from './jsx/Contact.jsx'
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
       <Gallery />
 
       <Services />
+
+      <Contact />
     </>
   )
 }

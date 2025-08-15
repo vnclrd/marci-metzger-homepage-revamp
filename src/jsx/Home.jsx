@@ -1,7 +1,11 @@
 function Home() {
 
-  function scrollToServices() {
+  function scrollToContact() {
     document.getElementById('services').scrollIntoView({ behavior: 'smooth' })
+  }
+
+  function scrollToContact() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })
   }
 
   return (
@@ -23,7 +27,7 @@ function Home() {
             <button 
               onClick={(e) => { e.preventDefault(); scrollToServices() }} 
               className='rounded-lg mt-7 pl-3 pr-3 pt-2 pb-2 text-[0.8rem] cursor-pointer border'>
-              Services
+              Our Services
             </button>
           </div>
           <div className='w-[450px] h-[300px] bg-[url("/block-img.jpg")] bg-cover bg-center bg-no-repeat'></div>
@@ -52,7 +56,17 @@ function Home() {
           </div>
         </div>
 
-        <button className='absolute shadow border text-[0.9rem] pl-3 pr-3 pt-2 pb-2 cursor-pointer top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-20 text-[#fff] rounded-lg'>Contact Me</button>
+        <button
+          onClick={(e) => { e.preventDefault(); scrollToContact() }}
+          className='
+            absolute shadow border text-[0.9rem] pl-3
+            pr-3 pt-2 pb-2 cursor-pointer top-1/2
+            left-1/2 transform -translate-x-1/2
+            -translate-y-20 text-[#fff] rounded-lg
+            '
+          >
+            Contact Us
+          </button>
         
         <div className='w-full h-[30%] bg-[#1e1e1e]'>
         </div>
