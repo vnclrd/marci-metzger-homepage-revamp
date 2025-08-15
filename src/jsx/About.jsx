@@ -11,7 +11,7 @@ function About() {
           <div className="absolute top-0 left-0 w-full h-[70%] flex items-center justify-center z-10">
             <div className="flex flex-row items-start gap-10 max-w-[900px] px-4">
               {/* Image + Name */}
-              <div className="flex flex-col items-center mt-[17%]">
+              <div className="flex flex-col items-center mt-[19%]">
                 <div
                   className="
                     w-[250px] h-[250px] rounded-full
@@ -43,11 +43,11 @@ function About() {
                 </p>
 
                 {/* Logos row */}
-                <div className="flex justify-between items-center w-full mb-[10px]">
-                  <img src="/logo-1.webp" alt="Logo 1" className="w-[60px] h-auto" />
-                  <img src="/logo-2.webp" alt="Logo 2" className="w-[60px] h-auto" />
-                  <img src="/logo-3.webp" alt="Logo 3" className="w-[60px] h-auto" />
-                  <img src="/logo-4.webp" alt="Logo 4" className="w-[60px] h-auto" />
+                <div className="flex justify-between items-center w-full mb-5">
+                  <div className="w-[60px] h-[60px] bg-[url('/logo-1.webp')] bg-cover bg-center bg-no-repeat"></div>
+                  <div className="w-[60px] h-[60px] bg-[url('/logo-2.webp')] bg-cover bg-center bg-no-repeat"></div>
+                  <div className="w-[60px] h-[60px] bg-[url('/logo-3.webp')] bg-cover bg-center bg-no-repeat"></div>
+                  <div className="w-[60px] h-[60px] bg-[url('/logo-4.webp')] bg-cover bg-center bg-no-repeat"></div>
                 </div>
               </div>
             </div>
