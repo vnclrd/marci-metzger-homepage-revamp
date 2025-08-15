@@ -25,11 +25,11 @@ function About() {
       >
         <div className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10 max-w-[900px] w-full">
           {/* Image + Name */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center lg:mt-5">
             <div
               className="
                 w-[180px] h-[180px] md:w-[250px] md:h-[250px] 
-                rounded-full
+                rounded-full lg:ml-7
                 bg-[url('/marci.jpg')] bg-cover bg-center bg-no-repeat
               "
             ></div>
@@ -40,7 +40,7 @@ function About() {
           </div>
 
           {/* Text + Logos */}
-          <div className="flex flex-col md:ml-10 mt-6 md:mt-0 max-w-full md:max-w-[500px] text-center md:text-left">
+          <div className="flex flex-col md:ml-10 mt-6 md:mt-0 max-w-full md:max-w-[500px] text-center md:text-left lg:ml-15 lg:mt-5">
             <p className="text-white text-sm md:text-[0.9rem] italic font-thin leading-5 mb-5">
               "I love that small-town feeling that our community offers. Spectacular golf
               courses, parks, pool, and easy access to Las Vegas make Pahrump a great
