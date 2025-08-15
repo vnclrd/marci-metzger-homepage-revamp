@@ -19,7 +19,7 @@ function Footer() {
         </p>
 
         <p className="text-gray-400 text-[0.75rem] tracking-wider font-poppins">
-          This website was created by Miguel Ivan Calarde.
+          This website was developed by Miguel Ivan Calarde.
         </p>
 
         {/* Developer Links */}
