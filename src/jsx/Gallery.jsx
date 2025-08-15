@@ -5,27 +5,27 @@ function Gallery() {
         <div className="grid grid-cols-3 gap-6 mt-[5%]">
           {/* Photo items */}
           <div
-            className="w-[300px] h-[250px] bg-[url('/img-1.jpg')] bg-cover bg-center bg-no-repeat"
+            className="w-[300px] h-[250px] bg-[url('/img-1.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-80"
           ></div>
 
           <div
-            className="w-[300px] h-[250px] bg-[url('/img-2.jpg')] bg-cover bg-center bg-no-repeat"
+            className="w-[300px] h-[250px] bg-[url('/img-2.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-80"
           ></div>
 
           <div
-            className="w-[300px] h-[250px] bg-[url('/img-3.jpg')] bg-cover bg-center bg-no-repeat"
+            className="w-[300px] h-[250px] bg-[url('/img-3.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-80"
           ></div>
 
           <div
-            className="w-[300px] h-[250px] bg-[url('/img-4.jpg')] bg-cover bg-center bg-no-repeat"
+            className="w-[300px] h-[250px] bg-[url('/img-4.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-80"
           ></div>
 
           <div
-            className="w-[300px] h-[250px] bg-[url('/img-5.jpg')] bg-cover bg-center bg-no-repeat"
+            className="w-[300px] h-[250px] bg-[url('/img-5.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-80"
           ></div>
 
           <div
-            className="w-[300px] h-[250px] bg-[url('/img-6.jpg')] bg-cover bg-center bg-no-repeat"
+            className="w-[300px] h-[250px] bg-[url('/img-6.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-80"
           ></div>
         </div>
       </div>
