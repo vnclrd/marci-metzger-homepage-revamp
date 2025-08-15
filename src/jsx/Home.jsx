@@ -20,6 +20,15 @@ function Home() {
     })
   }
 
+  const slideUpVariant = {
+  hidden: { opacity: 0, y: 50 }, // start 50px below
+  visible: (delay = 0) => ({
+    opacity: 1,
+    y: 0, // move to original position
+    transition: { duration: 0.6, delay }
+  })
+}
+
   // Fade-in variant for background
   const fadeInVariant = {
     hidden: { opacity: 0 },
@@ -150,7 +159,7 @@ function Home() {
       {/* Bottom Spacer */}
       <motion.div
         className='w-full h-[15%] md:h-[30%] bg-[#1e1e1e]'
-        variants={slideInVariant}
+        variants={slideUpVariant}
         initial="hidden"
         animate="visible"
         custom={1.6}
