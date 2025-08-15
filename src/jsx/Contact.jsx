@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 function Contact() {
   return (
     <>
@@ -5,8 +7,13 @@ function Contact() {
         id="contact"
         className="w-full min-h-screen flex items-center justify-center px-6 py-10"
       >
-        <div className="flex flex-col md:flex-row gap-10 backdrop-blur-lg bg-[#1e1e1e] p-8 rounded-lg shadow-lg mt-[5%] max-w-[900px] w-full">
-          
+        <motion.div
+          initial={{ opacity: 0, y: 50 }} // start slightly below
+          whileInView={{ opacity: 1, y: 0 }} // fade + slide up
+          viewport={{ once: true }} // only animate once
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          className="flex flex-col md:flex-row gap-10 backdrop-blur-lg bg-[#1e1e1e] p-8 rounded-lg shadow-lg mt-[5%] max-w-[900px] w-full"
+        >
           {/* Left side - Contact Form */}
           <div className="flex-1">
             <h1 className="text-center text-white font-poppins text-[1.5rem]">Contact Us!</h1>
@@ -63,7 +70,7 @@ function Contact() {
               </p>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
     </>
   );
