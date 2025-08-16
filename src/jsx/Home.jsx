@@ -142,7 +142,7 @@ function Home() {
             onClick={(e) => { e.preventDefault(); scrollToContact() }}
             className='
               border text-[0.8rem] md:text-[0.9rem] px-3 py-2 cursor-pointer
-              text-[#fff] rounded-lg drop-shadow-[0_2px_2px_rgba(0,0,0,1)]
+              text-[#fff] rounded-lg drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]
               mt-4 lg:mt-[22.5%] md:mt-[20%]
               md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-20
             '
@@ -158,7 +158,7 @@ function Home() {
 
       {/* Bottom Spacer */}
       <motion.div
-        className='w-full h-[15%] md:h-[30%] bg-[#1e1e1e]'
+        className='w-full h-[15%] md:h-[30%] bg-[#1e1e1e] sm:hidden'
         variants={slideUpVariant}
         initial="hidden"
         animate="visible"
