@@ -158,7 +158,7 @@ function Home() {
 
       {/* Bottom Spacer */}
       <motion.div
-        className='w-full h-[15%] md:h-[30%] bg-[#1e1e1e] sm:hidden'
+        className='w-full h-[15%] md:h-[30%] bg-[#1e1e1e]      '
         variants={slideUpVariant}
         initial="hidden"
         animate="visible"
