@@ -52,7 +52,7 @@ function Home() {
           <div
             className="absolute inset-0 bg-[url('/bg-img.jpg')] bg-cover bg-center bg-no-repeat contrast-90 brightness-60"
             style={{
-              backgroundAttachment: 'fixed',
+              backgroundAttachment: window.innerWidth >= 640 ? 'fixed' : 'scroll', // sm breakpoint = 640px
               backgroundPosition: '0% 30%',
             }}
           />
@@ -99,7 +99,7 @@ function Home() {
 
         {/* Card Right */}
         <motion.div
-          className='w-full md:w-[450px] h-[200px] md:h-[300px] 
+          className='w-full md:w-[450px] h-[200px] md:h-[300px]  
                      bg-[url("/block-img.jpg")] bg-cover bg-center bg-no-repeat'
           variants={slideInVariant}
           initial="hidden"
@@ -143,7 +143,7 @@ function Home() {
             className='
               border text-[0.8rem] md:text-[0.9rem] px-3 py-2 cursor-pointer
               text-[#fff] rounded-lg drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]
-              mt-4 lg:mt-[22.5%] md:mt-[20%]
+              mt-4 lg:mt-[22.5%] md:mt-[20%] mb-5
               md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-20
             '
             variants={slideInVariant}

@@ -60,7 +60,7 @@ function About() {
             viewport={{ once: true }}
             custom={0.6}
           >
-            <p className="text-white text-sm md:text-[0.9rem] italic font-thin leading-5 mb-5 sm:pl-5 sm:pr-5">
+            <p className="text-white text-sm md:text-[0.9rem] italic font-thin leading-5 mb-5 sm:pl-10 sm:pr-10">
               "I love that small-town feeling that our community offers. Spectacular golf
               courses, parks, pool, and easy access to Las Vegas make Pahrump a great
               place to call home. Working or retired, fast-paced or looking to relax...
@@ -68,7 +68,7 @@ function About() {
               community and will strive to find you a home that will suit you just as
               this community does me."
             </p>
-            <p className="text-white text-sm md:text-[1rem] font-poppins font-thin leading-6 md:leading-7 mb-6 sm:pl-5 sm:pr-5">
+            <p className="text-white text-sm md:text-[1rem] font-poppins font-thin leading-6 md:leading-7 mb-6 sm:pl-10 sm:pr-10">
               Marci was a REALTOR, then licensed Broker, in Washington State. Now, she is
               enjoying the sunshine, and helping clients in Southern Nevada. Having helped
               buyers and sellers in many markets since 1995, she is a wealth of knowledge.
