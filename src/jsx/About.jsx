@@ -83,10 +83,10 @@ function About() {
               viewport={{ once: true }}
               custom={0.8}
             >
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/logo-1.webp')] bg-cover bg-center bg-no-repeat"></div>
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/logo-2.webp')] bg-cover bg-center bg-no-repeat"></div>
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/logo-3.webp')] bg-cover bg-center bg-no-repeat"></div>
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/logo-4.webp')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
             </motion.div>
           </motion.div>
         </div>
