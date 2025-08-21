@@ -42,7 +42,7 @@ function About() {
             custom={0.4}
           >
             <div
-              className="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full lg:ml-7 bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"
+              className="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full lg:ml-7 bg-[url('/display-photo.jpg')] bg-cover bg-center bg-no-repeat"
             ></div>
             <p className="text-white text-base ml-6 md:text-lg font-poppins font-light mt-4">
               Real Estate
@@ -83,10 +83,10 @@ function About() {
               viewport={{ once: true }}
               custom={0.8}
             >
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
-              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/display-photo.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/display-photo.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/display-photo.jpg')] bg-cover bg-center bg-no-repeat"></div>
+              <div className="w-[50px] h-[50px] md:w-[60px] md:h-[60px] bg-[url('/display-photo.jpg')] bg-cover bg-center bg-no-repeat"></div>
             </motion.div>
           </motion.div>
         </div>
