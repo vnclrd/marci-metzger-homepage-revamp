@@ -45,14 +45,14 @@ function Contact() {
           {/* Right side - Contact Information */}
           <div className="flex-1 text-white font-poppins">
             <h2 className="text-[1.2rem] font-bold mb-3">
-              Marci Metzger - THE RIDGE REALTY GROUP
+              Real Estate - REAL ESTATE WEBSITE HOMEPAGE
             </h2>
             <p className="mb-4">
-              3190 HW-160, Suite F, Pahrump, Nevada 89048, United States
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </p>
 
             <p className="mb-4">
-              <span className="font-semibold">Phone:</span> (206) 919-6886
+              <span className="font-semibold">Phone:</span> (111) 111-1111
             </p>
 
             <div className="mb-4">

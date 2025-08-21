@@ -84,10 +84,9 @@ function Home() {
           </h1>
           <p className='text-center md:text-left'>in the last 5 years</p>
           <p className='px-5 md:pl-7 md:pr-7 pt-5 text-[0.8rem] text-justify leading-5'>
-            We helped nearly 90 clients in 2021, and closed 28.5 million in sales!
-            Our team works hard everyday to grow and learn, so that we may continue
-            to excel in our market. Our clients deserve our best, & we want to make
-            sure our best is better every year.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           </p>
           <button 
             onClick={(e) => { e.preventDefault(); scrollToServices() }} 
@@ -124,7 +123,7 @@ function Home() {
             animate="visible"
             custom={1.0}
           >
-            MARCI METZGER
+            REAL ESTATE
           </motion.p>
 
           <motion.p
@@ -134,7 +133,7 @@ function Home() {
             animate="visible"
             custom={1.2}
           >
-            Homes
+            Homepage
           </motion.p>
 
           {/* Contact Button */}
@@ -143,7 +142,7 @@ function Home() {
             className='
               border text-[0.8rem] md:text-[0.9rem] px-3 py-2 cursor-pointer
               text-[#fff] rounded-lg drop-shadow-[0_2px_2px_rgba(0,0,0,0.5)]
-              mt-4 lg:mt-[22.5%] md:mt-[20%] mb-5
+              mt-4 lg:mt-[27.5%] md:mt-[20%] mb-5
               md:absolute md:top-1/2 md:left-1/2 md:transform md:-translate-x-1/2 md:-translate-y-20
             '
             variants={slideInVariant}

@@ -53,7 +53,7 @@ function Header() {
               text-white
             `}
           >
-            MM<span className="font-bold font-brush">H</span>
+            RE<span className="font-bold font-brush">WH</span>
           </a>
 
           {/* Desktop Menu */}

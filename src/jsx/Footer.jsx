@@ -15,7 +15,7 @@ function Footer() {
 
         {/* Copyright */}
         <p className="text-gray-400 text-sm tracking-wider font-poppins">
-          COPYRIGHT © {new Date().getFullYear()} MARCI METZGER HOMES — ALL RIGHTS RESERVED
+          COPYRIGHT © {new Date().getFullYear()} REAL ESTATE HOMEPAGE WEBSITE — ALL RIGHTS RESERVED
         </p>
 
         <p className="text-gray-400 text-[0.75rem] tracking-wider font-poppins">

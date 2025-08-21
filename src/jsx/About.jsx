@@ -42,13 +42,13 @@ function About() {
             custom={0.4}
           >
             <div
-              className="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full lg:ml-7 bg-[url('/marci.jpg')] bg-cover bg-center bg-no-repeat"
+              className="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full lg:ml-7 bg-[url('/profile-photo.jpg')] bg-cover bg-center bg-no-repeat"
             ></div>
-            <p className="text-white text-base md:text-lg font-poppins font-light mt-4">
-              Marci Metzger
+            <p className="text-white text-base ml-6 md:text-lg font-poppins font-light mt-4">
+              Real Estate
             </p>
-            <p className="text-white text-sm font-thin">Real Estate Agent</p>
-            <p className="text-white text-sm font-thin">Realtor</p>
+            <p className="text-white text-sm font-thin ml-6">Real Estate Agent</p>
+            <p className="text-white text-sm font-thin ml-6">Realtor</p>
           </motion.div>
 
           {/* Text + Logos */}
@@ -61,17 +61,17 @@ function About() {
             custom={0.6}
           >
             <p className="text-white text-sm md:text-[0.9rem] italic font-thin leading-5 mb-5">
-              "I love that small-town feeling that our community offers. Spectacular golf
-              courses, parks, pool, and easy access to Las Vegas make Pahrump a great
-              place to call home. Working or retired, fast-paced or looking to relax...
-              there's a place for you here! I enjoy living in the Mountain Falls
-              community and will strive to find you a home that will suit you just as
-              this community does me."
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
             </p>
             <p className="text-white text-sm md:text-[1rem] font-poppins font-thin leading-6 md:leading-7 mb-6 ">
-              Marci was a REALTOR, then licensed Broker, in Washington State. Now, she is
-              enjoying the sunshine, and helping clients in Southern Nevada. Having helped
-              buyers and sellers in many markets since 1995, she is a wealth of knowledge.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
 
             {/* Logos */}
