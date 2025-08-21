@@ -42,7 +42,7 @@ function About() {
             custom={0.4}
           >
             <div
-              className="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full lg:ml-7 bg-[url('/profile-photo.jpg')] bg-cover bg-center bg-no-repeat"
+              className="w-[180px] h-[180px] md:w-[250px] md:h-[250px] rounded-full lg:ml-7 bg-[url('/profile-photo-2.jpg')] bg-cover bg-center bg-no-repeat"
             ></div>
             <p className="text-white text-base ml-6 md:text-lg font-poppins font-light mt-4">
               Real Estate
